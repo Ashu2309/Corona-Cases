@@ -1,0 +1,49 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-image: linear-gradient(to top, rgb(170, 177, 221),white,white,white);
+  
+
+}
+.card_style{
+  text-shadow: 2px 3px 4px white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  padding-left: 10px;
+  box-sizing: border-box;
+  width: 18rem;
+  height: 10rem;
+  background-image: linear-gradient(to bottom,rgb(179, 205, 230),white);
+  border: 3px solid rgb(9, 41, 66);
+  border-radius: 2%;
+
+}
+.card_style:hover{
+  background-image: linear-gradient(to bottom,rgb(236, 72, 162),white);
+  transform: scale(1.1);
+}
+
+.active{
+  background-image: linear-gradient(to bottom,rgb(235, 236, 144),white);
+}
+.deaths{
+  background-image: linear-gradient(to bottom,rgb(218, 91, 59),white);
+}
+.recovered{
+  background-image: linear-gradient(to bottom,rgb(47, 143, 106),white);
+}
+.lut{
+  background-image: linear-gradient(to bottom,rgb(220, 223, 89),white);
+}
+.country{
+  background-image: linear-gradient(to bottom,rgb(236, 166, 61),white,white,rgb(102, 228, 102));
+}
+.confirmed{
+  background-image: linear-gradient(to bottom,rgb(236, 152, 41),white);
+}
+
+h5{
+  text-decoration: bold;
+}
